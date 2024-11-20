@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(33, 32, 32);
+  height: 40px;
+}
+
+.title {
+  text-align: center;
+  background-color: black;
+  color: orange;
+  font-size: 30px;
+  margin-bottom: 50px;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+
+}
+
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Times New Roman';
+}
+
+body {
+  padding-top: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  height: fit-content;
+  margin-bottom: 40px;
+}
+
+.sidebar {
+  padding: 0px 10px;
+  width: 30%;
+  background-color: rgb(194, 191, 191);
+  height: fit-content;
+}
+
+.main_part {
+  padding: 0px 20px;
+  width: 68%;
+  height: inherit;
+  background-color: rgb(226, 224, 224);
+}
+
+.img_div {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  height: 95%;
+  width: 80%;
+  border-radius: 50%;
+}
+
+.cell_no {
+  font-weight: bold;
+}
+
+.numbers {
+  margin-left: 50%
+}
+
+.per_info {
+  display: flex;
+}
+
+.per_info div p {
+  font-size: 20px;
+}
+
+h3 {
+  background-color: grey;
+  font-size: 25px;
+  color: white;
+  padding-left: 5px;
+}
+
+h4 {
+  font-size: 21px;
+}
+
+.attributes {
+  width: 40%;
+  padding-left: 5px
+}
+
+.values {
+  width: 60%;
+}
+
+hr {
+  margin-top: 1px;
+  margin-bottom: 20px;
+  height: 3px;
+  background-color: black;
+
+}
+
+.workEx p {
+  margin-left: 25px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.workEx h4 {
+  margin-left: 5px
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+ul li ul li {
+  font-size: 15px;
+}
+
+.objective p {
+  font-size: 20px;
+  margin-left: 5px
+}
+
+.workEx p:last-child {
+  margin-bottom: 0;
+}
+
+.mother {
+  width: 90%;
+  margin: auto;
+}
+
+
+.main_part h3 {
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.row1 {
+  display: flex;
+}
+
+.row1 div {
+  display: flex;
+  width: 23%;
+  align-items: center;
+  justify-content: center;
+}
+
+.black {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.languages div div {
+  border: 1px solid rgb(123, 123, 127);
+}
+
+
+
+.row1 div.lan {
+  width: 31%;
+  display: block;
+  padding-left: 5px
+}
+
+
+.froogh {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ref {
+  padding-bottom: 30px
+}
