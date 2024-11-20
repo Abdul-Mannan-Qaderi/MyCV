@@ -19,8 +19,7 @@
 	color: white;
 	font-size: 30px;
 	margin-bottom: 50px;
-	border-top-right-radius: 40px;
-	border-top-left-radius: 40px;
+	border-radius: 5px;
 }
 
 .name {
@@ -35,6 +34,17 @@ body {
 	padding-top: 30px;
 }
 
+.div {
+	box-shadow: 1px 1px 10px 2px #ccc;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
 .container {
 	display: flex;
 	justify-content: space-between;
@@ -47,15 +57,18 @@ body {
 .sidebar {
 	padding: 0px 10px;
 	width: 30%;
-	background-color: rgb(229, 229, 229);
-	height: fit-content;
 }
 
 .main_part {
 	padding: 0px 20px;
 	width: 68%;
 	height: inherit;
-	background-color: rgb(226, 224, 224);
+}
+
+.sidebar,
+.main_part {
+	background-color: #eee;
+	border-top: 5px solid black;
 }
 
 .img_div {
@@ -65,11 +78,23 @@ body {
 	align-items: center;
 	justify-content: center;
 }
+.img_inner_div {
+	height: 80%;
+	width: 78%;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: none;
+}
 
 img {
-	height: 95%;
-	width: 80%;
-	border-radius: 50%;
+	height: 110%;
+	width: 100%;
+	transition: 0.3s;
+	transform: scale(1.1);
+}
+
+.img_inner_div:hover img {
+	transform: scale(1.15);
 }
 
 .cell_no {
@@ -77,11 +102,7 @@ img {
 }
 
 .numbers {
-	margin-left: 50%;
-}
-
-.per_info {
-	display: flex;
+	margin-left: 40%;
 }
 
 .per_info div p {
@@ -121,6 +142,10 @@ hr {
 	font-size: 20px;
 }
 
+.workEx.div {
+	margin-top: 10px;
+}
+
 .workEx h4 {
 	margin-left: 5px;
 }
@@ -151,7 +176,6 @@ ul li ul li {
 
 .main_part h3 {
 	margin-bottom: 5px;
-	margin-top: 20px;
 }
 
 .row1 {
@@ -192,4 +216,26 @@ a {
 
 .ref {
 	padding-bottom: 30px;
+}
+
+.objective-text {
+	line-height: 1.6;
+}
+
+.personal_info {
+	width: 100%;
+}
+
+.personal_info td {
+	font-size: 20px;
+	width: 48%;
+	display: inline-block;
+}
+
+.personal_info tr {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.ontact_info.div {
 }
