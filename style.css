@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	width: 1440px;
+	margin: auto;
+}
 .header {
 	display: flex;
 	justify-content: center;
