@@ -8,6 +8,7 @@ body {
 	width: 1440px;
 	margin: auto;
 }
+
 .header {
 	display: flex;
 	justify-content: center;
@@ -79,29 +80,22 @@ h3 {
 }
 
 .img_div {
-	width: 100%;
-	height: 320px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.img_inner_div {
-	height: 82%;
-	width: 70%;
-	border-radius: 50%;
+	border-radius: 100%;
 	overflow: hidden;
 	box-shadow: none;
+	width: 80%;
+	height: 300px;
+	margin: 10px auto;
 }
 
 img {
 	height: 100%;
 	width: 100%;
 	transition: 0.3s;
-	transform: scale(1.1);
 }
 
-.img_inner_div:hover img {
-	transform: scale(1.15);
+img:hover {
+	transform: scale(1.05);
 }
 
 .cell_no {
@@ -249,7 +243,4 @@ a {
 .personal_info tr {
 	display: block;
 	margin-bottom: 10px;
-}
-
-.ontact_info.div {
 }
