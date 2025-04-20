@@ -32,6 +32,11 @@ body {
 	text-align: center;
 	font-style: italic;
 	font-family: "Times New Roman";
+	transition: 0.2s;
+}
+
+.name:hover {
+	transform: scale(1.1);
 }
 
 body {
@@ -43,6 +48,7 @@ body {
 	padding: 10px;
 	margin-bottom: 20px;
 	transition: 0.2s;
+	border-radius: 4px;
 }
 
 .div:hover {
@@ -89,6 +95,7 @@ h3 {
 }
 
 img {
+	border-radius: inherit;
 	height: 100%;
 	width: 100%;
 	transition: 0.3s;
@@ -243,4 +250,68 @@ a {
 .personal_info tr {
 	display: block;
 	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+	.container {
+		display: block;
+	}
+
+	.img_div {
+		height: 280px;
+	}
+
+	.sidebar {
+		padding: 20px;
+		column-gap: 20px;
+		width: 100%;
+		display: grid;
+		grid-template-columns: 2fr 2fr 3fr;
+		margin-bottom: 30px;
+	}
+	.contact-info {
+		align-self: start;
+	}
+
+	.objective {
+		grid-column: 1 / span 3;
+	}
+
+	.main_part {
+		padding-top: 20px;
+		width: 100%;
+		display: grid;
+		gap: 20px;
+		grid-template-columns: 3fr 3fr 3fr 3fr 3fr;
+	}
+	.workEx.div,
+	.languages {
+		margin-top: 0;
+		align-self: start;
+	}
+
+	.workEx {
+		grid-column: 1 / span 3;
+		grid-row: 1 / span 2;
+	}
+	.languages {
+		grid-column: 4 / span 6;
+		grid-row: 1 / span 2;
+	}
+
+	.edu_qual {
+		margin-top: -100px;
+		align-self: start;
+		grid-column: 1 / span 3;
+	}
+
+	.skills {
+		grid-column: 4 / span 6;
+		margin-top: -25px;
+	}
+
+	.ref {
+		grid-column: 1 / span 7;
+		width: 100%;
+	}
 }
